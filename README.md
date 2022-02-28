@@ -4,7 +4,7 @@ This document will provide you all the details how to configure the github actio
 
 ## Create AWS resources using Terraform
 
-In this workflow, we will deploy an ECS service using following AWS resources
+In this workflow, we will deploy an ECS service using following AWS resources 
  1. VPC
  2. Security Groups
  3. ECS Cluster
