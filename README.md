@@ -14,6 +14,11 @@ In this workflow, we will deploy an ECS service using following AWS resources
  7. Task Definition for ECS Service
  8. Target Groups for ALB
 
+ ## How to test
+
+ 1. Get the loadbalancer DNS name
+ 2. Open it in the browser `http://DNSName/LoginWebApp-1
+
 ## Github Actions Workflow 
 
 To have basic understanding of Github actions, please follow [Github Action Basic Video](https://www.youtube.com/watch?v=0VELgZOJs78)
