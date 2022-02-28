@@ -1,4 +1,4 @@
- resource "aws_lb" "lb" {
+ /*resource "aws_lb" "lb" {
   name               = "${var.project}-${var.environment}"
   load_balancer_type = "application"
   internal           = false
@@ -81,3 +81,4 @@ resource "aws_lb_listener" "lb_listener" {
   }
 }
 
+*/

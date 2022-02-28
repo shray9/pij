@@ -28,11 +28,11 @@ resource "aws_ecs_service" "service" {
 
 
 
-  load_balancer {
+ /* load_balancer {
     container_name   = "${var.project}-${var.environment}"
     container_port   = var.port
     target_group_arn = aws_lb_target_group.app.arn
-  }
+  }*/
 
   network_configuration {
     assign_public_ip = "true"
